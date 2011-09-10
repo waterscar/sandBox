@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902FC20A141B725800BA5C06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC209141B725800BA5C06 /* UIKit.framework */; };
+		902FC20C141B725800BA5C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC20B141B725800BA5C06 /* Foundation.framework */; };
+		902FC20E141B725800BA5C06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC20D141B725800BA5C06 /* CoreGraphics.framework */; };
+		902FC214141B725800BA5C06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902FC212141B725800BA5C06 /* InfoPlist.strings */; };
+		902FC216141B725800BA5C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC215141B725800BA5C06 /* main.m */; };
+		902FC21A141B725800BA5C06 /* WhiteBoardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC219141B725800BA5C06 /* WhiteBoardAppDelegate.m */; };
+		902FC21E141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC21D141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.m */; };
+		902FC221141B725800BA5C06 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FC21F141B725800BA5C06 /* MainWindow_iPhone.xib */; };
+		902FC225141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC224141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.m */; };
+		902FC228141B725800BA5C06 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 902FC226141B725800BA5C06 /* MainWindow_iPad.xib */; };
+		902FC230141B725800BA5C06 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC22F141B725800BA5C06 /* SenTestingKit.framework */; };
+		902FC231141B725800BA5C06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC209141B725800BA5C06 /* UIKit.framework */; };
+		902FC232141B725800BA5C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC20B141B725800BA5C06 /* Foundation.framework */; };
+		902FC233141B725800BA5C06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902FC20D141B725800BA5C06 /* CoreGraphics.framework */; };
+		902FC23B141B725800BA5C06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902FC239141B725800BA5C06 /* InfoPlist.strings */; };
+		902FC23D141B725800BA5C06 /* WhiteBoardTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 902FC23C141B725800BA5C06 /* WhiteBoardTests.h */; };
+		902FC23F141B725800BA5C06 /* WhiteBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC23E141B725800BA5C06 /* WhiteBoardTests.m */; };
+		902FC24C141B734900BA5C06 /* WhiteBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC24B141B734900BA5C06 /* WhiteBoardView.m */; };
+		902FC257141BDF6800BA5C06 /* DragPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 902FC256141BDF6800BA5C06 /* DragPen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902FC234141B725800BA5C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902FC1FC141B725800BA5C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902FC204141B725800BA5C06;
+			remoteInfo = WhiteBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		902FC205141B725800BA5C06 /* WhiteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		902FC209141B725800BA5C06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		902FC20B141B725800BA5C06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		902FC20D141B725800BA5C06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		902FC211141B725800BA5C06 /* WhiteBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhiteBoard-Info.plist"; sourceTree = "<group>"; };
+		902FC213141B725800BA5C06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		902FC215141B725800BA5C06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		902FC217141B725800BA5C06 /* WhiteBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhiteBoard-Prefix.pch"; sourceTree = "<group>"; };
+		902FC218141B725800BA5C06 /* WhiteBoardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteBoardAppDelegate.h; sourceTree = "<group>"; };
+		902FC219141B725800BA5C06 /* WhiteBoardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteBoardAppDelegate.m; sourceTree = "<group>"; };
+		902FC21C141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WhiteBoardAppDelegate_iPhone.h; path = iPhone/WhiteBoardAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		902FC21D141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WhiteBoardAppDelegate_iPhone.m; path = iPhone/WhiteBoardAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		902FC220141B725800BA5C06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		902FC223141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WhiteBoardAppDelegate_iPad.h; path = iPad/WhiteBoardAppDelegate_iPad.h; sourceTree = "<group>"; };
+		902FC224141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WhiteBoardAppDelegate_iPad.m; path = iPad/WhiteBoardAppDelegate_iPad.m; sourceTree = "<group>"; };
+		902FC227141B725800BA5C06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		902FC22E141B725800BA5C06 /* WhiteBoardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteBoardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		902FC22F141B725800BA5C06 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		902FC238141B725800BA5C06 /* WhiteBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhiteBoardTests-Info.plist"; sourceTree = "<group>"; };
+		902FC23A141B725800BA5C06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		902FC23C141B725800BA5C06 /* WhiteBoardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhiteBoardTests.h; sourceTree = "<group>"; };
+		902FC23E141B725800BA5C06 /* WhiteBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteBoardTests.m; sourceTree = "<group>"; };
+		902FC24A141B734900BA5C06 /* WhiteBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteBoardView.h; sourceTree = "<group>"; };
+		902FC24B141B734900BA5C06 /* WhiteBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteBoardView.m; sourceTree = "<group>"; };
+		902FC255141BDF6800BA5C06 /* DragPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragPen.h; sourceTree = "<group>"; };
+		902FC256141BDF6800BA5C06 /* DragPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragPen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902FC202141B725800BA5C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FC20A141B725800BA5C06 /* UIKit.framework in Frameworks */,
+				902FC20C141B725800BA5C06 /* Foundation.framework in Frameworks */,
+				902FC20E141B725800BA5C06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902FC22A141B725800BA5C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FC230141B725800BA5C06 /* SenTestingKit.framework in Frameworks */,
+				902FC231141B725800BA5C06 /* UIKit.framework in Frameworks */,
+				902FC232141B725800BA5C06 /* Foundation.framework in Frameworks */,
+				902FC233141B725800BA5C06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902FC1FA141B725800BA5C06 = {
+			isa = PBXGroup;
+			children = (
+				902FC20F141B725800BA5C06 /* WhiteBoard */,
+				902FC236141B725800BA5C06 /* WhiteBoardTests */,
+				902FC208141B725800BA5C06 /* Frameworks */,
+				902FC206141B725800BA5C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902FC206141B725800BA5C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902FC205141B725800BA5C06 /* WhiteBoard.app */,
+				902FC22E141B725800BA5C06 /* WhiteBoardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902FC208141B725800BA5C06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				902FC209141B725800BA5C06 /* UIKit.framework */,
+				902FC20B141B725800BA5C06 /* Foundation.framework */,
+				902FC20D141B725800BA5C06 /* CoreGraphics.framework */,
+				902FC22F141B725800BA5C06 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		902FC20F141B725800BA5C06 /* WhiteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				902FC255141BDF6800BA5C06 /* DragPen.h */,
+				902FC256141BDF6800BA5C06 /* DragPen.m */,
+				902FC218141B725800BA5C06 /* WhiteBoardAppDelegate.h */,
+				902FC219141B725800BA5C06 /* WhiteBoardAppDelegate.m */,
+				902FC24A141B734900BA5C06 /* WhiteBoardView.h */,
+				902FC24B141B734900BA5C06 /* WhiteBoardView.m */,
+				902FC21B141B725800BA5C06 /* iPhone */,
+				902FC222141B725800BA5C06 /* iPad */,
+				902FC210141B725800BA5C06 /* Supporting Files */,
+			);
+			path = WhiteBoard;
+			sourceTree = "<group>";
+		};
+		902FC210141B725800BA5C06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				902FC211141B725800BA5C06 /* WhiteBoard-Info.plist */,
+				902FC212141B725800BA5C06 /* InfoPlist.strings */,
+				902FC215141B725800BA5C06 /* main.m */,
+				902FC217141B725800BA5C06 /* WhiteBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		902FC21B141B725800BA5C06 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				902FC21C141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.h */,
+				902FC21D141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.m */,
+				902FC21F141B725800BA5C06 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		902FC222141B725800BA5C06 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				902FC223141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.h */,
+				902FC224141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.m */,
+				902FC226141B725800BA5C06 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		902FC236141B725800BA5C06 /* WhiteBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				902FC23C141B725800BA5C06 /* WhiteBoardTests.h */,
+				902FC23E141B725800BA5C06 /* WhiteBoardTests.m */,
+				902FC237141B725800BA5C06 /* Supporting Files */,
+			);
+			path = WhiteBoardTests;
+			sourceTree = "<group>";
+		};
+		902FC237141B725800BA5C06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				902FC238141B725800BA5C06 /* WhiteBoardTests-Info.plist */,
+				902FC239141B725800BA5C06 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902FC204141B725800BA5C06 /* WhiteBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902FC242141B725800BA5C06 /* Build configuration list for PBXNativeTarget "WhiteBoard" */;
+			buildPhases = (
+				902FC201141B725800BA5C06 /* Sources */,
+				902FC202141B725800BA5C06 /* Frameworks */,
+				902FC203141B725800BA5C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteBoard;
+			productName = WhiteBoard;
+			productReference = 902FC205141B725800BA5C06 /* WhiteBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902FC22D141B725800BA5C06 /* WhiteBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902FC245141B725800BA5C06 /* Build configuration list for PBXNativeTarget "WhiteBoardTests" */;
+			buildPhases = (
+				902FC229141B725800BA5C06 /* Sources */,
+				902FC22A141B725800BA5C06 /* Frameworks */,
+				902FC22B141B725800BA5C06 /* Resources */,
+				902FC22C141B725800BA5C06 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902FC235141B725800BA5C06 /* PBXTargetDependency */,
+			);
+			name = WhiteBoardTests;
+			productName = WhiteBoardTests;
+			productReference = 902FC22E141B725800BA5C06 /* WhiteBoardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902FC1FC141B725800BA5C06 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 902FC1FF141B725800BA5C06 /* Build configuration list for PBXProject "WhiteBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 902FC1FA141B725800BA5C06;
+			productRefGroup = 902FC206141B725800BA5C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902FC204141B725800BA5C06 /* WhiteBoard */,
+				902FC22D141B725800BA5C06 /* WhiteBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902FC203141B725800BA5C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FC214141B725800BA5C06 /* InfoPlist.strings in Resources */,
+				902FC221141B725800BA5C06 /* MainWindow_iPhone.xib in Resources */,
+				902FC228141B725800BA5C06 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902FC22B141B725800BA5C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FC23B141B725800BA5C06 /* InfoPlist.strings in Resources */,
+				902FC23D141B725800BA5C06 /* WhiteBoardTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		902FC22C141B725800BA5C06 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902FC201141B725800BA5C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FC216141B725800BA5C06 /* main.m in Sources */,
+				902FC21A141B725800BA5C06 /* WhiteBoardAppDelegate.m in Sources */,
+				902FC21E141B725800BA5C06 /* WhiteBoardAppDelegate_iPhone.m in Sources */,
+				902FC225141B725800BA5C06 /* WhiteBoardAppDelegate_iPad.m in Sources */,
+				902FC24C141B734900BA5C06 /* WhiteBoardView.m in Sources */,
+				902FC257141BDF6800BA5C06 /* DragPen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902FC229141B725800BA5C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902FC23F141B725800BA5C06 /* WhiteBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902FC235141B725800BA5C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902FC204141B725800BA5C06 /* WhiteBoard */;
+			targetProxy = 902FC234141B725800BA5C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		902FC212141B725800BA5C06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FC213141B725800BA5C06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		902FC21F141B725800BA5C06 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FC220141B725800BA5C06 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		902FC226141B725800BA5C06 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FC227141B725800BA5C06 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		902FC239141B725800BA5C06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				902FC23A141B725800BA5C06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		902FC240141B725800BA5C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902FC241141B725800BA5C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902FC243141B725800BA5C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteBoard/WhiteBoard-Prefix.pch";
+				INFOPLIST_FILE = "WhiteBoard/WhiteBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		902FC244141B725800BA5C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteBoard/WhiteBoard-Prefix.pch";
+				INFOPLIST_FILE = "WhiteBoard/WhiteBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		902FC246141B725800BA5C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhiteBoard.app/WhiteBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteBoard/WhiteBoard-Prefix.pch";
+				INFOPLIST_FILE = "WhiteBoardTests/WhiteBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		902FC247141B725800BA5C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhiteBoard.app/WhiteBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhiteBoard/WhiteBoard-Prefix.pch";
+				INFOPLIST_FILE = "WhiteBoardTests/WhiteBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902FC1FF141B725800BA5C06 /* Build configuration list for PBXProject "WhiteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902FC240141B725800BA5C06 /* Debug */,
+				902FC241141B725800BA5C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902FC242141B725800BA5C06 /* Build configuration list for PBXNativeTarget "WhiteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902FC243141B725800BA5C06 /* Debug */,
+				902FC244141B725800BA5C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		902FC245141B725800BA5C06 /* Build configuration list for PBXNativeTarget "WhiteBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902FC246141B725800BA5C06 /* Debug */,
+				902FC247141B725800BA5C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902FC1FC141B725800BA5C06 /* Project object */;
+}
